@@ -30,7 +30,7 @@ resource "aws_instance" "app" {
 }
 
 module "s3_bucket" {
-  source  = "app.terraform.io/policy-as-code-training/s3-bucket-{your-initials}/aws"
+  source  = "app.terraform.io/policy-as-code-training/s3-bucket-nj/aws"
   version = "1.0.0"
   
   bucket_name = "12112025"
