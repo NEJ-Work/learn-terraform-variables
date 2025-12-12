@@ -1,12 +1,10 @@
 terraform {
-/*
-  cloud {
-    organization = "policy-as-code-training"
-    workspaces {
-      name = "tf-vault-qa-{your-initials}"
-    }
-  }
-*/
+  # cloud {
+  #   organization = "sudo-cloud-org"
+  #   workspaces {
+  #     name = "tf-vault-qa-{your-initials}"
+  #   }
+  # }
   required_providers {
     aws = {
       source  = "hashicorp/aws"
