@@ -29,7 +29,7 @@ resource "aws_instance" "app" {
   tags = var.tags
 }
 
-module "s3_bucket" {
+module "terraform-aws-s3-bucket-nj" {
   source  = "app.terraform.io/policy-as-code-training/s3-bucket-nj/aws"
   version = "1.0.0"
   
